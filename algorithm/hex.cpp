@@ -41,6 +41,7 @@ catch(const boost::exception& e)
     cout << "unhex error" << endl;
 }
 
+/////////////////////
 int main()
 {
     case1();

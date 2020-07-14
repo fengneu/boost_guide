@@ -27,6 +27,7 @@ void case2()
     clamp_range(v, ostream_iterator<int>(cout, ","), 3, 9);
 }
 
+/////////////////
 int main()
 {
     case1();

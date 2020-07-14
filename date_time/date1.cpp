@@ -29,10 +29,12 @@ void case2()
     date d2 ( from_string("2015/1/1") );
     date d3 = from_undelimited_string("20011118") ;
 
-    cout << d1 << d2 << d3 << endl;
+    cout << d1 << endl;
+    cout << d2 <<endl;
+    cout << d3 << endl;
 
-    cout << day_clock::local_day()    << endl;
-    cout << day_clock::universal_day() << endl;
+    cout << "date_clock is "<<day_clock::local_day()    << endl;
+    cout << "date_clock is " <<day_clock::universal_day() << endl;
 
 }
 
@@ -49,13 +51,13 @@ void case3()
 
     try
     {
-        //date d1(1399,12,1);
+        date d1(1399,12,1);
         //date d2(10000,1,1);
-        date d3(2017,2,29);
+        //date d3(2017,2,29);
     }
     catch(std::exception& e)
     {
-        cout << e.what() << endl;
+        cout <<"!!!Exception is " << e.what() << endl;
     }
 }
 

@@ -34,6 +34,7 @@ string str = BOOST_CURRENT_FUNCTION;      //错误用法，不能用在函数作
 
 void case2()
 {
+    cout<<"Utility TestCase 2 start"<<endl;
     cout << str << endl;
     cout << __FUNCTION__ << endl;
     cout << BOOST_CURRENT_FUNCTION << endl;

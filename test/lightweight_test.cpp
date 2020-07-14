@@ -7,6 +7,7 @@ using namespace std;
 #include <boost/smart_ptr.hpp>
 #include <boost/core/lightweight_test.hpp>
 #include <boost/core/lightweight_test_trait.hpp>
+
 //using namespace boost;
 
 int main()

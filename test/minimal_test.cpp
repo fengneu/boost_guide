@@ -31,6 +31,7 @@ int test_main( int argc, char* argv[] )
     {
         //BOOST_FAIL("致命错误，测试终止");
     }
+    std::cout<<"Main test finished!"<<endl;
     return 0;
 }
 

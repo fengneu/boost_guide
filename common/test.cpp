@@ -9,6 +9,7 @@ using namespace std;
 int main()
 {
     cout << __cplusplus << endl;
+    cout<< "Boost Library Information" <<endl;
     cout << BOOST_VERSION << endl;
     cout << BOOST_LIB_VERSION<< endl;
 

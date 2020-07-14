@@ -30,7 +30,7 @@ void case1()
     time_duration td = h + m + s + ms;
     time_duration td2 = hours(2) + seconds(10);
 
-    cout << td << td2 << endl;
+    cout <<"td is " << td << " td2 is "<<td2 << endl;
 }
 
 //////////////////////////////////////////

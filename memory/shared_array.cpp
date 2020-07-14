@@ -18,5 +18,6 @@ int main()
 
     sa[0] = 10;
     assert(sa2[0] == 10);
+    cout<<"shared array is finished!" <<endl;
 }
 

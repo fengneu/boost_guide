@@ -10,8 +10,6 @@ class do_not_copy: boost::noncopyable
 {};
 
 //////////////////////////////////////////
-
-
 int main()
 {
     do_not_copy d1;

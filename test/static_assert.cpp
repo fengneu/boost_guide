@@ -40,7 +40,7 @@ namespace my_space
     BOOST_STATIC_ASSERT(sizeof(empty_class) == 1);
 }
 
-
+////////////////
 int main()
 {
     case1();

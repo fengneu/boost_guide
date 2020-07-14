@@ -18,14 +18,17 @@ int main()
         boost::progress_timer t;
 
     }
+    sleep(1);
     {
         boost::progress_timer t;
     }
+    sleep(1);
 
     stringstream ss;
     {
         progress_timer t(ss);
     }
+    sleep(1);
     cout << ss.str();
 }
 

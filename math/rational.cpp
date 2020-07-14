@@ -108,6 +108,7 @@ void case8()
     cout << fmt % a % b % gcd(a,b) % lcm(a,b);
 }
 
+//////////////
 int main()
 {
     case1();

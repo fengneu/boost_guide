@@ -1,5 +1,6 @@
 // Copyright (c) 2017
 // Author: Chrono Law
+
 //#define BOOST_TEST_MAIN
 #define BOOST_TEST_MODULE decorator_test
 #include <boost/test/unit_test.hpp>

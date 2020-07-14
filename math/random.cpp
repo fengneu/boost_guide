@@ -160,7 +160,7 @@ void case6()
     std::cout << std::endl;
 }
 
-
+/////////////
 int main()
 {
     case1();

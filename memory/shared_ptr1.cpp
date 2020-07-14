@@ -127,6 +127,7 @@ void case6()
     std::cout << *v[9] << std::endl;
 }
 
+////////////////////
 int main()
 {
     case1();

@@ -34,7 +34,7 @@ struct static_int
     BOOST_STATIC_CONSTANT(int, v2 = 20);
 };
 
-//////////////////////////////////////////
+///////////////////////
 
 int main()
 {

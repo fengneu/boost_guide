@@ -18,7 +18,7 @@ using std::vector;
 using namespace boost::asio;
 using namespace boost::system;
 
-//////////////////////////////////////////
+////////////////////////////////////////
 int main()
 {
     io_service io;

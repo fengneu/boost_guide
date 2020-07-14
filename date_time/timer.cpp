@@ -20,6 +20,7 @@ int main()
         << t.elapsed_max() /3600 << "h" <<endl;
     cout << "min timespan:"
         << t.elapsed_min() << "s" << endl;
+    sleep(1);
     cout << "now time elapsed:"
         << t.elapsed() <<"s" << endl;
 }

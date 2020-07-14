@@ -138,7 +138,7 @@ void case7()
     for_each(v.begin(), v.end(), std::ref(sq));
 }
 
-
+//////
 int main()
 {
     case1();

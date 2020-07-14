@@ -30,10 +30,8 @@ void case1()
 
 //////////////////////////////////////////
 
-class point : //boost::less_than_comparable<point,
-              //boost::equality_comparable<point> >
-              totally_ordered<point,
-              additive<point> >
+class point : //boost::less_than_comparable<point, boost::equality_comparable<point>>
+              totally_ordered<point, additive<point> >
 {
     int x, y, z;
 public:
@@ -200,7 +198,7 @@ void case7()
     //assert(a > b);
 }
 
-//////////////////////////////////////////
+///////////////////////////////
 
 
 int main()

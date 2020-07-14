@@ -94,6 +94,7 @@ void case4()
     cout << fmt % type_name<u33000>() % (sizeof(u33000) * 8);
 }
 
+///////////////////
 int main()
 {
     case1();

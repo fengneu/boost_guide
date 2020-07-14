@@ -43,6 +43,7 @@ void case2()
          << pi<float_100>() << endl;
 }
 
+////////////////
 int main()
 {
     case1();

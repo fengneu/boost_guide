@@ -4,7 +4,10 @@
 //using namespace std;
 
 #include <boost/core/ignore_unused.hpp>
+#include <iostream>
+
 using namespace boost;
+using namespace std;
 
 //////////////////////////////////////////
 int func(int x, int y)
@@ -23,10 +26,11 @@ void func2()
     ignore_unused<result_type>();
 }
 
-
+/////////////////
 int main()
 {
-    //func(1, 2);
+    func(1, 2);
+    cout<<"main func finished!";
 }
 
 

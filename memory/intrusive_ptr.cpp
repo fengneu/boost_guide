@@ -41,7 +41,7 @@ struct counted_data2 : public intrusive_ref_counter<counted_data2>
         cout << "dtor2" << endl;
     }
 };
-//////////////////////////////////////////
+///////////////////////////////////////
 
 int main()
 {

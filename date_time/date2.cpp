@@ -86,10 +86,10 @@ void case4()
 void case5()
 {
     typedef gregorian_calendar gre_cal;
-    cout << "Y2017 is "
-        << (gre_cal::is_leap_year(2017)?"":"not")
+    cout << "Y2020is "
+        << (gre_cal::is_leap_year(2020)?"":"not")
         << " a leap year." << endl;
-    assert(gre_cal::end_of_month_day(2017, 2) == 28);
+    assert(gre_cal::end_of_month_day(2020, 2) == 29);
 }
 
 //////////////////////////////////////////

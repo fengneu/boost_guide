@@ -159,6 +159,7 @@ void case7()
     assert(s.size() == 1);
 }
 
+//////////////////
 int main()
 {
     case1();
